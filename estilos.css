@@ -1,0 +1,73 @@
+body{
+    padding: 0px 20px;
+    margin: 0;
+box-sizing: border-box;
+background-image: linear-gradient(to top, #1a243d 50vh , #1b36c3 50vh );
+font-family: 'Montserrat', sans-serif;
+color: aliceblue;
+height: 100vh;
+
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content:space-around;}
+
+.logo img{ width: 200px;
+    padding: 2vmax 0px;
+
+}
+.instruccion{
+    text-align: center;
+}
+.tarjeta{
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.164);
+    width: 30vmax;
+    height: 20vmax;
+
+}
+.info{
+    padding: 0 2vmax;
+    display: flex;
+    height: 20vmax;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banco h3{
+    font-size: 2vmax;
+}
+.chip img{
+    width: 4vmax;
+    padding-top: 0vmax;
+}
+#tarjeta_{
+    cursor: pointer;
+}
+.numero p{
+    font-size: 2vmax;
+    
+}
+.nombre{
+    text-align: right;
+}
+h5{
+    font-size: 1vmax;
+    padding-bottom: 1vmax;
+}
+.contenedorAviso{
+    padding: 10px 30px;
+    text-align: center;
+    border-color: #71bb6c;
+    border-width: 1px;
+    border-style: solid;
+}
+.contenedorNumero{
+   text-align: center;
+padding-top: 20px;}
+.contenedorNumero button{
+    background-color: #fff;
+    color:#1a243d;
+    border-radius: 10px;
+    cursor: pointer;
+}
